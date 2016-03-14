@@ -30,19 +30,19 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/Winter-Yang/YQNavigationControllerSwift"
   
-  s.license      = "MIT"
+  # s.license      = "MIT"
   
 
-  s.author             = { "17709215280" => "17709215280@163.com" }
+  s.author       = { "17709215280" => "17709215280@163.com" }
 
   s.platform     = :ios, "8.0"
 
   
 
-  s.source       = { :git => "https://github.com/Winter-Yang/YQNavigationControllerSwift.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/Winter-Yang/YQNavigationControllerSwift.git", :tag => s.version }
 
 
-  s.source_files  = "YQNavigationControllerSwift/YQNavigationViewController.swift"
+  s.source_files  = 'YQNavigationControllerSwift/YQNavigationViewController.swift'
 
   
 
