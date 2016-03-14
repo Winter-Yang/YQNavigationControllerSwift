@@ -47,7 +47,7 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Core'
 
   s.subspec 'Core' do |core|
-      core.source_files = 'YQNavigationControllerSwift/YQNavigationViewController.swift'
+      core.source_files = 'YQNavigationControllerSwift/YQNavigationControllerSwift/YQNavigationViewController.swift'
   end
 
   s.framework  = "UIKit"
