@@ -42,13 +42,13 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Winter-Yang/YQNavigationControllerSwift.git", :tag => s.version.to_s }
 
 
-  # s.source_files  = 'YQNavigationControllerSwift/YQNavigationViewController.swift'
+  s.source_files  = 'YQNavigationControllerSwift/YQNavigationControllerSwift/YQNavigationViewController.swift'
 
-  s.default_subspec = 'Core'
+  # s.default_subspec = 'Core'
 
-  s.subspec 'Core' do |core|
-      core.source_files = 'YQNavigationControllerSwift/YQNavigationControllerSwift/YQNavigationViewController.swift'
-  end
+  # s.subspec 'Core' do |core|
+  #     core.source_files = 'YQNavigationControllerSwift/YQNavigationControllerSwift/YQNavigationViewController.swift'
+  # end
 
   s.framework  = "UIKit"
   
