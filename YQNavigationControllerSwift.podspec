@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Winter-Yang/YQNavigationControllerSwift.git", :tag => s.version }
 
 
-  s.source_files  = 'YQNavigationControllerSwift/YQNavigationViewController.swift'
+  s.source_files  = './YQNavigationControllerSwift/YQNavigationViewController.swift'
 
   
 
